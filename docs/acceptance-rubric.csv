@@ -1,0 +1,103 @@
+Module,Criteria,Score
+M0369 Implantació sistemes operatius,Instal·la sistemes operatius analitzant-ne les característiques i interpretant-ne la documentació tècnica.,100
+M0369 Implantació sistemes operatius,Configura el programari de base atenent les necessitats d'explotació del sistema informàtic.,100
+M0369 Implantació sistemes operatius,Assegura la informació del sistema descrivint els procediments i utilitzant còpies de seguretat i sistemes tolerants a errors.,100
+M0369 Implantació sistemes operatius,Centralitza la informació en servidors administrant estructures de dominis i analitzant-ne els avantatges.,100
+M0369 Implantació sistemes operatius,Administra l'accés a dominis analitzant i respectant requeriments de seguretat.,100
+M0369 Implantació sistemes operatius,Detecta problemes de rendiment monitorant el sistema amb les eines adequades i documentant el procediment.,100
+M0369 Implantació sistemes operatius,Audita la utilització i l'accés a recursos identificant i respectant les necessitats de seguretat del sistema.,100
+M0369 Implantació sistemes operatius,Implanta programari específic amb estructura client/servidor donant resposta als requisits funcionals.,100
+M0372 Bases de Dades,Reconeix els elements de les bases de dades analitzant-ne les funcions i valorant la utilitat dels sistemes gestors.,75
+M0372 Bases de Dades,Dissenya models lògics normalitzats interpretant diagrames d'entitat/relació.,50
+M0372 Bases de Dades,Realitza el disseny físic de bases de dades utilitzant assistents eines gràfiques i el llenguatge de definició de dades.,75
+M0372 Bases de Dades,Consulta la informació emmagatzemada emprant assistents eines gràfiques i el llenguatge de manipulació de dades.,75
+M0372 Bases de Dades,Modifica la informació emmagatzemada emprant assistents eines gràfiques i el llenguatge de manipulació de dades.,75
+M0372 Bases de Dades,Executa tasques d'assegurament de la informació analitzant-les i aplicant mecanismes de salvaguarda i transferència.,100
+M0373 Llenguatge de marques,Reconeix les característiques de llenguatges de marques analitzant i interpretant fragments de codi.,100
+M0373 Llenguatge de marques,Utilitza llenguatges de marques per a la transmissió i presentació de informació a través del web analitzant l'estructura dels documents i identificant-ne els elements.,75
+M0373 Llenguatge de marques,Accedeix i manipula documents web utilitzant llenguatges de guions de client.,75
+M0373 Llenguatge de marques,Estableix mecanismes de validació de documents per a l'intercanvi d'informació utilitzant mètodes per definir-ne la sintaxi i l'estructura.,50
+M0373 Llenguatge de marques,Realitza conversions sobre documents per a l'intercanvi de informació utilitzant tècniques llenguatges i eines de processament.,0
+M0373 Llenguatge de marques,Gestiona la informació en formats d'intercanvi de dades analitzant i utilitzant tecnologies d'emmagatzematge i llenguatges de consulta.,100
+M0373 Llenguatge de marques,Efectua operacions amb sistemes empresarials de gestió d'informació realitzant tasques d'importació integració assegurament i extracció de la informació.,100
+M1708 Sostenibilitat,Identifica els aspectes ambientals socials i de governança (ASG) relatius a la sostenibilitat tenint en compte el concepte de desenvolupament sostenible i els marcs internacionals que contribueixen a la seva consecució.,100
+M1708 Sostenibilitat,Caracteritza els reptes ambientals i socials als quals s'enfronta la societat descrivint els impactes sobre les persones i els sectors productius i proposant accions per a minimitzar-los.,100
+M1708 Sostenibilitat,Estableix l'aplicació de criteris de sostenibilitat en l'acompliment professional i personal identificant els elements necessaris.,100
+M1708 Sostenibilitat,Proposa productes i serveis responsables tenint en compte els principis de l'economia circular.,100
+M1708 Sostenibilitat,Realitza activitats sostenibles minimitzant l'impacte de les mateixes en el medi ambient.,100
+M1708 Sostenibilitat,Analitza un pla de sostenibilitat d'una empresa del sector identificant els seus grups d'interès els aspectes ASG materials i justificant accions per a la seva gestió i mesurament.,100
+M1665 Digitalització,Analitza el concepte de digitalització i la seva repercussió en els sectors productius tenint en compte l'activitat de l'empresa i identificant entorns IT i OT característics.,100
+M1665 Digitalització,Caracteritza les tecnologies habilitadores digitals necessàries per a l'adequació/transformació de les empreses a entorns digitals descrivint les seves característiques i aplicacions.,100
+M1665 Digitalització,Identifica aplicacions de la IA en entorns del sector on està emmarcat el títol descrivint les millores implícites en la seva implementació.,50
+M1665 Digitalització,Identifica sistemes basats en cloud/núvol i la seva influència en el desenvolupament dels sistemes digitals.,100
+M1665 Digitalització,Avalua la importància de les dades així com la seva protecció en una economia digital globalitzada definint sistemes de seguretat i ciberseguretat tant a nivell d'equip/sistema com a globals.,100
+M1665 Digitalització,Desenvolupa un projecte de transformació digital d'una empresa d'un sector relacionat amb el títol tenint en compte els canvis que s'han de produir en funció dels objectius de l'empresa.,100
+M0371 Fonaments de maquinari,Configura equips microinformàtics components i perifèrics analitzant-ne les seves característiques i la relació amb el conjunt.,75
+M0371 Fonaments de maquinari,Compleix les normes de prevenció de riscos laborals i de protecció ambiental identificant-ne els riscos associats les mesures i els equips per prevenir-los.,100
+M0371 Fonaments de maquinari,Instal·la programari de propòsit general avaluant-ne les característiques i els entorns d'aplicació.,50
+M0371 Fonaments de maquinari,Executa procediments per recuperar el programari bàsic d'un equip analitzant-los i utilitzant imatges emmagatzemades a memòria auxiliar.,75
+M0371 Fonaments de maquinari,Implanta maquinari específic de centres de processament de dades (CPD) analitzant-ne les característiques i aplicacions.,50
+M0374 Administració de sistemes operatius,Administra el servei de directori interpretant-ne especificacions i integrant-lo en una xarxa.,100
+M0374 Administració de sistemes operatius,Administra servidors d'impressió descrivint-ne les funcions i integrant-los en una xarxa.,0
+M0374 Administració de sistemes operatius,Administra processos del sistema descrivint-los i aplicant criteris de seguretat i eficiència.,100
+M0374 Administració de sistemes operatius,Gestiona l'automatització de tasques del sistema aplicant-hi criteris d'eficiència i utilitzant comandes i eines gràfiques.,100
+M0374 Administració de sistemes operatius,Administra de forma remota el sistema operatiu en xarxa valorant-ne la seva importància i aplicant-hi criteris de seguretat.,100
+M0374 Administració de sistemes operatius,Integra sistemes operatius lliures i propietaris justificant i garantint-ne la interoperabilitat.,100
+M0374 Administració de sistemes operatius,Utilitza llenguatges de guions en sistemes operatius descrivint-ne la seva aplicació i administrant serveis del sistema operatiu.,100
+M0370 Planificació i administració de xarxes,Reconeix l'estructura de les xarxes de dades identificant-ne els elements i els principis de funcionament.,100
+M0370 Planificació i administració de xarxes,Integra ordinadors i perifèrics en xarxes cablejades i sense fils avaluant-ne el funcionament i les prestacions.,100
+M0370 Planificació i administració de xarxes,Administra commutadors establint opcions de configuració per a la seva integració a la xarxa.,50
+M0370 Planificació i administració de xarxes,Administra les funcions bàsiques d'un encaminador (router) establint opcions de configuració per a la seva integració a la xarxa.,75
+M0370 Planificació i administració de xarxes,Configura xarxes locals virtuals identificant-ne el camp d'aplicació.,75
+M0370 Planificació i administració de xarxes,Realitza tasques avançades d'administració de xarxa analitzant i utilitzant protocols dinàmics d'encaminament.,75
+M0370 Planificació i administració de xarxes,Connecta xarxes privades a xarxes públiques identificant i aplicant diferents tecnologies.,100
+M0375 Serveis de xarxa i internet,Administra serveis de resolució de noms analitzant-los i garantint la seguretat del servei.,100
+M0375 Serveis de xarxa i internet,Administra serveis de configuració automàtica identificant-los i verificant la correcta assignació dels paràmetres.,100
+M0375 Serveis de xarxa i internet,Administra servidors web aplicant criteris de configuració i assegurant el funcionament del servei.,100
+M0375 Serveis de xarxa i internet,Administra serveis de transferència fitxers assegurant i limitant l'accés a la informació.,50
+M0375 Serveis de xarxa i internet,Administra servidors de correu electrònic aplicant criteris de configuració i garantitzant la seguretat del servei.,50
+M0375 Serveis de xarxa i internet,Administra serveis de missatgeria instantània notícies i llistes de distribució verificant i assegurant l'accés dels usuaris.,100
+M0375 Serveis de xarxa i internet,Administra serveis d'àudio identificant-ne les necessitats de distribució i adaptant els formats.,0
+M0375 Serveis de xarxa i internet,Administra serveis de vídeo identificant-ne les necessitats de distribució i adaptant els formats.,0
+M0377 Administració de bases de dades,Implanta sistemes gestors de bases de dades analitzant les característiques i ajustant-se als requeriments del sistema.,100
+M0377 Administració de bases de dades,Configura el sistema gestor de bases de dades interpretant-ne les especificacions tècniques i els requisits d'explotació.,100
+M0377 Administració de bases de dades,Optimitza el rendiment del sistema aplicant tècniques de monitoratge i realitzant adaptacions.,50
+M0377 Administració de bases de dades,Aplica criteris de disponibilitat analitzant-los i ajustant la configuració del sistema gestor.,100
+M0377 Administració de bases de dades,Implanta mètodes de control d'accés utilitzant assistents eines gràfiques i comandes del llenguatge del sistema gestor.,100
+M0377 Administració de bases de dades,Automatitza tasques d'administració del gestor descrivint-les i utilitzant guions de sentències.,100
+M1709 IPO I,Assoleix les competències necessàries per a l'obtenció del títol de Tècnic Bàsic en Prevenció de Riscos Laborals.,100
+M1709 IPO I,Analitza i avalua el seu potencial professional i els seus interessos per a guiar-se en el procés d'autoorientació i elabora un full de ruta per a la inserció professional.,100
+M1709 IPO I,Distingeix les característiques del sector productiu i defineix els llocs de treball relacionant-los amb les competències professionals expressades en el títol.,100
+M1709 IPO I,Aplica les estratègies per a l'aprenentatge autònom reconeixent el seu valor professionalitzador i dissenyant el seu propi entorn d'aprenentatge fent ús de les tecnologies digitals.,100
+M1709 IPO I,Analitza les seves condicions laborals com a persona treballadora per compte d'altri identificant-les en els principals tipus de canvis rellevants que es poden presentar en la relació laboral.,100
+M0376 Implantació aplicacions web,Prepara l'entorn de desenvolupament i els servidors d'aplicacions web instal·lant i integrant les funcionalitats necessàries.,100
+M0376 Implantació aplicacions web,Implanta gestors de continguts seleccionant-los i establint la configuració dels paràmetres.,100
+M0376 Implantació aplicacions web,Administra gestors de continguts adaptant-los als requeriments i garantint la integritat de la informació.,100
+M0376 Implantació aplicacions web,Gestiona aplicacions d'ofimàtica web integrant funcionalitats i assegurant l'accés a la informació.,100
+M0376 Implantació aplicacions web,Genera documents web utilitzant llenguatges de guions de servidor.,50
+M0376 Implantació aplicacions web,Genera documents web amb accés a bases de dades utilitzant llenguatges de guions de servidors.,50
+M0376 Implantació aplicacions web,Realitza modificacions en gestors de continguts adaptant-ne l'aparença i les funcionalitats.,100
+M0378 Seguretat i alta disponibilitat,Adopta pautes i pràctiques de tractament segur de la informació reconeixent les vulnerabilitats d'un sistema informàtic i la necessitat d'assegurar-lo.,100
+M0378 Seguretat i alta disponibilitat,Implanta mecanismes de seguretat activa seleccionant i executant contramesures davant d'amenaces o atacs al sistema.,100
+M0378 Seguretat i alta disponibilitat,Implanta tècniques segures d'accés remot a un sistema informàtic interpretant i aplicant el pla de seguretat.,100
+M0378 Seguretat i alta disponibilitat,Reconeix la legislació i normativa sobre seguretat i protecció de dades valorant-ne la seva importància.,100
+M0378 Seguretat i alta disponibilitat,Implanta tallafocs per assegurar un sistema informàtic analitzant les prestacions i controlant el trànsit cap a la xarxa interna.,100
+M0378 Seguretat i alta disponibilitat,Implanta servidors proxy aplicant criteris de configuració que garanteixin el funcionament segur del servei.,100
+M0378 Seguretat i alta disponibilitat,Implanta solucions d'alta disponibilitat emprant tècniques de virtualització i configurant els entorns de prova.,100
+C038 Ciberseguretat i hacking ètic,Proposa solucions a ciberatacs detectats reconeixent l'origen i motius de l'atac.,100
+C038 Ciberseguretat i hacking ètic,Analitza la seguretat aplicant les tècniques d'una possible amenaça.,100
+C037 Seguretat en sistemes xarxes i serveis,Defineix i implementa un funcionament segur per dispositius mòbils i IoT.,50
+C037 Seguretat en sistemes xarxes i serveis,Assegura els serveis de xarxa per garantir el funcionament segur.,100
+C037 Seguretat en sistemes xarxes i serveis,Proposa solucions de seguretat web reconeixent les principals amenaces.,100
+C037 Seguretat en sistemes xarxes i serveis,Assegura la fiabilitat dels canals de comunicació i l'enrutament.,100
+M0179 Anglès professional,Comprèn informació d'índole professional acadèmica i quotidiana continguda en tota mena de discursos orals interpretant amb precisió el contingut del missatge.,100
+M0179 Anglès professional,Comprèn missatges escrits de naturalesa professional acadèmica i quotidiana analitzant de manera comprensiva el seu contingut.,100
+M0179 Anglès professional,Emet missatges orals clars i ben estructurats analitzant el contingut de la situació i adaptant-se al registre lingüístic de l'interlocutor.,100
+M0179 Anglès professional,Redacta documents i informes propis del sector o de la vida acadèmica i quotidiana relacionant els recursos lingüístics amb el seu propòsit.,100
+M0179 Anglès professional,Aplica actituds i comportaments professionals en situacions de comunicació descrivint les relacions típiques característiques del país de la llengua estrangera.,100
+M1710 IPO II,Planifica i posa en marxa estratègies en els diferents processos selectius d'ocupació que li permeten millorar les seves possibilitats d'inserció laboral.,100
+M1710 IPO II,Aplica estratègies relacionades amb les competències personals socials i emocionals per al desenvolupament de la seva iniciativa emprenedora i la millora de la seva ocupabilitat.,100
+M1710 IPO II,Posa en pràctica les habilitats emprenedores necessàries per al desenvolupament de processos d'innovació i recerca aplicades que promouen la modernització del sector productiu cap a un model sostenible.,100
+M1710 IPO II,Identifica defineix i valida idees d'emprenedoria generadores de noves oportunitats a partir d'estratègies d'anàlisi de l'entorn socioproductiu utilitzant metodologies àgils per l'emprenedoria.,100
+M1710 IPO II,Desenvolupa un projecte emprenedor d'innovació social i/o tecnològica aplicada en col·laboració amb l'entorn.,100
+TOTAL,,88.25
