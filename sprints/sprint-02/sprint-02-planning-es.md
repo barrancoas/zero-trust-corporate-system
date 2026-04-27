@@ -18,69 +18,15 @@ Este sprint absorbe además las dos tareas técnicas no finalizadas del Sprint 1
 
 ---
 
-## Tareas del Sprint
-
-### Arrastradas del Sprint 1
-- Despliegue de infraestructura AWS (VPC, subredes, routing, security groups, instancias EC2)
-- Despliegue servidor Windows Server on-premise *(en curso)*
-
-### Documentación de planificación (nuevas)
-- Criterios de rendimiento y aceptación del sistema
-- Plan de seguridad — Red Team y Blue Team
-
-### Fase 2 — Infraestructura on-premise
-- Despliegue servidor Linux perimetral
-- Configuración de red interna (segmentación, DNS, DHCP)
-
-### Fase 3 — Active Directory
-- Instalación y configuración de Active Directory
-- Políticas de acceso (GPO)
-- Gestión y provisioning de usuarios
-
-### Fase 4 — Identidad federada
-- Despliegue del proveedor de identidad (Keycloak)
-- Federación con Active Directory (LDAP)
-- Configuración SSO
-- Configuración MFA
-- Validación del flujo de autenticación
-
-### Fase 5 — Perímetro y acceso
-- Configuración del proxy inverso (Nginx)
-- Gestión de certificados TLS (Let's Encrypt + Certbot)
-- Protección perimetral activa (Fail2ban + UFW + Security Groups)
-
-### Fase 6 — Base de datos
-- Despliegue y hardening de la base de datos (MariaDB)
-
-### Fase 7 — Servicios corporativos
-- Servicio de gestión documental (Nextcloud + integración SSO)
-- Servicio de comunicaciones (Mattermost + integración SSO)
-
-### Fase 8 — Automatización y monitorización
-- Script de monitorización de logs
-
-### Fase 9 — Validación del sistema
-- Validación de aislamiento de red
-- Validación de acceso y permisos
-
-### Fase 10 — Purple Team
-- Ataque 1 — Fuerza bruta
-- Ataque 2 — Robo de credenciales
-- Ataque 3 — Secuestro de sesión
-- Documentación Blue Team y respuesta al incidente
-
-### Fase 11 — Cierre
-- Plan de pruebas final
-- Manual de usuario
-- Sprint 02 Review y Retrospectiva
-
----
-
 ## Estado del tablero en el Planning
 
-Las dos tareas arrastradas del Sprint 1 se incorporan directamente a "To Do". El resto de tareas proceden del backlog general y se asignan en su totalidad a este sprint, al ser el último sprint técnico del proyecto.
+Las dos tareas arrastradas del Sprint 1 se incorporan directamente a "To Do". El resto de tareas proceden del backlog general y se asignan en su totalidad a este ambicioso sprint, al ser el último sprint técnico del proyecto.
 
 ![Sprint 02 Planning Board](../../media/sprint-02-planning-board-01.png)
+![Sprint 02 Planning Board](../../media/sprint-02-planning-board-02.png)
+![Sprint 02 Planning Board](../../media/sprint-02-planning-board-03.png)
+![Sprint 02 Planning Board](../../media/sprint-02-planning-board-04.png)
+![Sprint 02 Planning Board](../../media/sprint-02-planning-board-05.png)
 
 ---
 
