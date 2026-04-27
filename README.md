@@ -5,7 +5,9 @@
 **Author:** Asier Barranco  
 **Cycle:** CFGS ASIX — Cybersecurity Profile  
 **Centre:** Institut Tecnològic de Barcelona  
-**Academic year:** 2025–2026
+**Academic year:** 2025–2026  
+**Project period:** 13/04/2026 → 12/05/2026  
+**Defence:** 20/05/2026  
 
 ---
 
@@ -56,6 +58,13 @@ The project concludes with a practical offensive/defensive validation:
 
 ## Methodology
 
-The project follows **SCRUM** with two-week sprints. Each sprint is documented with a planning record and a review/retrospective, both committed to this repository as Markdown files with ProofHub board screenshots as evidence.
+The project follows **SCRUM** with two sprints:
+
+| Sprint | Period | Focus |
+|---|---|---|
+| Sprint 1 | 13/04/2026 → 24/04/2026 | Foundational documentation and initial infrastructure setup |
+| Sprint 2 | 27/04/2026 → 12/05/2026 | Full technical implementation and Purple Team validation |
+
+Each sprint is documented with a planning record and a review/retrospective, both committed to this repository as Markdown files with ProofHub board screenshots as evidence.
 
 No custom software is developed. The project focuses entirely on the deployment, integration and hardening of open source solutions. All technical documentation is written in **technical English (B2 level)** with a parallel version in Spanish.
