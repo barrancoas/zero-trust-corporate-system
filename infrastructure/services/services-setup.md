@@ -158,10 +158,10 @@ services:
     image: mariadb:11.4
     container_name: mariadb
     environment:
-      MYSQL_ROOT_PASSWORD: <REDACTED — see credentials file>
+      MYSQL_ROOT_PASSWORD: XXXXXXXXXXX
       MYSQL_DATABASE: nextcloud
       MYSQL_USER: nextcloud_user
-      MYSQL_PASSWORD: <REDACTED — see credentials file>
+      MYSQL_PASSWORD: XXXXXXXXXX
     volumes:
       - mariadb_data:/var/lib/mysql
     networks:
@@ -182,10 +182,10 @@ services:
       MYSQL_HOST: mariadb
       MYSQL_DATABASE: nextcloud
       MYSQL_USER: nextcloud_user
-      MYSQL_PASSWORD: <REDACTED — see credentials file>
+      MYSQL_PASSWORD: XXXXXXXXXX
       NEXTCLOUD_ADMIN_USER: nc_admin
-      NEXTCLOUD_ADMIN_PASSWORD: <REDACTED — see credentials file>
-      NEXTCLOUD_TRUSTED_DOMAINS: "<your-domain>"
+      NEXTCLOUD_ADMIN_PASSWORD: XXXXXXXXXX
+      NEXTCLOUD_TRUSTED_DOMAINS: "abb-ztcs.com"
       OVERWRITEPROTOCOL: https
     volumes:
       - nextcloud_data:/var/www/html
@@ -204,7 +204,7 @@ services:
     environment:
       MM_SQLSETTINGS_DRIVERNAME: mysql
       MM_SQLSETTINGS_DATASOURCE: "mattermost_user:<REDACTED>@tcp(mariadb:3306)/mattermost?charset=utf8mb4,utf8&writeTimeout=30s"
-      MM_SERVICESETTINGS_SITEURL: "https://<your-domain>/mattermost"
+      MM_SERVICESETTINGS_SITEURL: "https://abb-ztcs.com/mattermost"
       MM_SERVICESETTINGS_LISTENADDRESS: ":8065"
     volumes:
       - mattermost_data:/mattermost/data

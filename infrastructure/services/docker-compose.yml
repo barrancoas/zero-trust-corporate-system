@@ -1,0 +1,79 @@
+services:
+
+  # ── MariaDB — Shared relational database ──────────────────────────
+  mariadb:
+    image: mariadb:11.4
+    container_name: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: XXXXXXXXXXX
+      MYSQL_DATABASE: nextcloud
+      MYSQL_USER: nextcloud_user
+      MYSQL_PASSWORD: XXXXXXXXXX
+    volumes:
+      - mariadb_data:/var/lib/mysql
+    networks:
+      - ztcs-internal
+    restart: unless-stopped
+    command: >
+      --character-set-server=utf8mb4
+      --collation-server=utf8mb4_unicode_ci
+      --default-authentication-plugin=mysql_native_password
+      --bind-address=0.0.0.0
+      --skip-name-resolve
+
+  # ── Nextcloud — Document management ────────────────────────────────
+  nextcloud:
+    image: nextcloud:29-apache
+    container_name: nextcloud
+    environment:
+      MYSQL_HOST: mariadb
+      MYSQL_DATABASE: nextcloud
+      MYSQL_USER: nextcloud_user
+      MYSQL_PASSWORD: XXXXXXXXXX
+      NEXTCLOUD_ADMIN_USER: nc_admin
+      NEXTCLOUD_ADMIN_PASSWORD: XXXXXXXXXX
+      NEXTCLOUD_TRUSTED_DOMAINS: "abb-ztcs.com"
+      OVERWRITEPROTOCOL: https
+    volumes:
+      - nextcloud_data:/var/www/html
+    ports:
+      - "8080:80"
+    networks:
+      - ztcs-internal
+    depends_on:
+      - mariadb
+    restart: unless-stopped
+
+  # ── Mattermost — Team communications [OPTIONAL] ───────────────────
+  mattermost:
+    image: mattermost/mattermost-team-edition:9.7
+    container_name: mattermost
+    environment:
+      MM_SQLSETTINGS_DRIVERNAME: mysql
+      MM_SQLSETTINGS_DATASOURCE: "mattermost_user:<REDACTED>@tcp(mariadb:3306)/mattermost?charset=utf8mb4,utf8&writeTimeout=30s"
+      MM_SERVICESETTINGS_SITEURL: "https://abb-ztcs.com/mattermost"
+      MM_SERVICESETTINGS_LISTENADDRESS: ":8065"
+    volumes:
+      - mattermost_data:/mattermost/data
+      - mattermost_config:/mattermost/config
+      - mattermost_logs:/mattermost/logs
+      - mattermost_plugins:/mattermost/plugins
+    ports:
+      - "8065:8065"
+    networks:
+      - ztcs-internal
+    depends_on:
+      - mariadb
+    restart: unless-stopped
+
+networks:
+  ztcs-internal:
+    driver: bridge
+
+volumes:
+  mariadb_data:
+  nextcloud_data:
+  mattermost_data:
+  mattermost_config:
+  mattermost_logs:
+  mattermost_plugins:
