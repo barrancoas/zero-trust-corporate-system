@@ -224,23 +224,8 @@ route add 10.10.0.0 mask 255.255.255.0 192.168.56.1 -p
 These steps are not in the original WireGuard documentation but are required when the VPN peer runs on a Windows Server with multiple network adapters.
 ---
 
-## 10. Important — Public IP Changes
 
-The AWS perimeter instance gets a new public IP every time it starts. This means the `Endpoint` value in the Windows WireGuard configuration becomes stale after each lab session restart.
-
-**At the start of every work session:**
-
-1. Note the new public IP of `ztcs-perimeter` from the EC2 console
-2. Open the WireGuard application on DC01
-3. Click **Edit** on the `ZeroTrust-VPN` tunnel
-4. Update the `Endpoint` line with the new IP
-5. Click **Save** → **Activate**
-
-This will be resolved permanently once an Elastic IP is assigned to `ztcs-perimeter` during the Nginx and domain configuration phase.
-
----
-
-## 11. Summary
+## 10. Summary
 
 At the end of this phase, the following is in place:
 

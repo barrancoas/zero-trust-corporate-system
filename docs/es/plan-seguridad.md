@@ -181,13 +181,8 @@ Los siguientes estándares definen lo que la arquitectura debe ser capaz de sopo
 
 ## 7. Entregables
 
-Cada simulación de ataque produce la siguiente documentación, commiteada en `security/`:
+Toda la documentación de simulaciones de ataque y respuesta al incidente está consolidada en un único documento commiteado en `security/`:
 
 | Archivo | Contenido |
 |---|---|
-| `security/red-team/attack-01-bruteforce.md` | Configuración del ataque, pasos de ejecución, resultados, evidencias |
-| `security/red-team/attack-02-credential-theft.md` | Configuración del ataque, pasos de ejecución, resultados, evidencias |
-| `security/red-team/attack-03-session-hijack.md` | Configuración del ataque, pasos de ejecución, resultados, evidencias |
-| `security/blue-team/mitigation-01-bruteforce.md` | Logs de Fail2ban, lista de baneos, evidencia de bloqueo de cuenta |
-| `security/blue-team/mitigation-02-mfa-repudiation.md` | Log de eventos de Keycloak, capturas de pantalla |
-| `security/blue-team/incident-response-log.md` | Informe unificado de respuesta al incidente con línea temporal y lecciones aprendidas |
+| `security/purple-team.md` | Registro completo del Purple Team — 3 simulaciones de ataque (Red Team), 3 mitigaciones (Blue Team), validación de defensa en profundidad e informe de respuesta al incidente |
