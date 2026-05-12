@@ -15,6 +15,10 @@ services:
     volumes:
       - keycloak_data:/opt/keycloak/data
     restart: unless-stopped
+    logging:
+      driver: journald
+      options:
+        tag: keycloak
 
 volumes:
   keycloak_data:
