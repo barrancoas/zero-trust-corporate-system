@@ -194,12 +194,13 @@ findtime = 300
 # ── Keycloak Brute Force Protection ──────────────────────────────────
 [keycloak]
 enabled = true
-port = http,https
 filter = keycloak
-logpath = /var/log/nginx/access.log
+backend = systemd
+journalmatch = CONTAINER_TAG=keycloak
 maxretry = 5
+findtime = 60
 bantime = 1800
-findtime = 300
+banaction = ufw
 ```
 
 **Configuration explained:**
@@ -226,9 +227,7 @@ Paste the following content:
 
 ```ini
 [Definition]
-# Detect failed Keycloak login attempts via Nginx access log
-# Matches POST requests to the Keycloak login endpoint that return 401 or 403
-failregex = ^<HOST> -.*"POST.*/realms/.*/login-actions/authenticate.* (401|403)
+failregex = .*ipAddress=\"<HOST>\".*error=\"(invalid_user_credentials|not_allowed|cookie_not_found)\"
 ignoreregex =
 ```
 
@@ -239,7 +238,7 @@ Save with `Ctrl+O` → `Enter` → `Ctrl+X`.
 ### 5.4 Verify the Keycloak Filter Syntax
 
 ```bash
-sudo fail2ban-regex /var/log/nginx/access.log /etc/fail2ban/filter.d/keycloak.conf
+sudo fail2ban-regex "journalmatch:CONTAINER_TAG=keycloak" /etc/fail2ban/filter.d/keycloak.conf
 ```
 
 > If the Nginx access log does not exist yet (Nginx not yet configured), this command will show an error — that is expected. The filter will work once Nginx is running and generating logs. You can re-run this verification after the Nginx deployment.

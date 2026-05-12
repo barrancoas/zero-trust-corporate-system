@@ -39,9 +39,9 @@ Before starting this deployment, the following must be in place and verified:
 
 | Prerequisite | Status |
 |---|---|
-| `ztcs-perimeter` EC2 instance running | See `infrastructure/aws/setup.md` |
+| `ztcs-perimeter` EC2 instance running | See `infrastructure/aws/aws-setup.md` |
 | WireGuard VPN tunnel active between AWS and DC01 | See `infrastructure/vpn/wireguard-setup.md` |
-| Active Directory operational with users synced | See `infrastructure/active-directory/setup.md` |
+| Active Directory operational with users synced | See `infrastructure/domain-controller/dc-setup.md` |
 | LDAP port 389 reachable from `ztcs-perimeter` to `192.168.56.10` | Verified via `nc -zv 192.168.56.10 389` |
 | SSH access to `ztcs-perimeter` | Via `labsuser.pem` key |
 
