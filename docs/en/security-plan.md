@@ -181,13 +181,10 @@ The following standards define what the architecture must be able to withstand t
 
 ## 7. Deliverables
 
-Each attack simulation produces the following documentation, committed to `security/`:
+## 7. Deliverables
+
+All attack simulations and incident response documentation are consolidated in a single document committed to `security/`:
 
 | File | Content |
 |---|---|
-| `security/red-team/attack-01-bruteforce.md` | Attack setup, execution steps, results, evidence |
-| `security/red-team/attack-02-credential-theft.md` | Attack setup, execution steps, results, evidence |
-| `security/red-team/attack-03-session-hijack.md` | Attack setup, execution steps, results, evidence |
-| `security/blue-team/mitigation-01-bruteforce.md` | Fail2ban logs, ban list, account lockout evidence |
-| `security/blue-team/mitigation-02-mfa-repudiation.md` | Keycloak event log, screenshots |
-| `security/blue-team/incident-response-log.md` | Unified incident response report with timeline and lessons learned |
+| `security/purple-team.md` | Complete Purple Team record — 3 attack simulations (Red Team), 3 mitigations (Blue Team), defence-in-depth validation and incident response summary |
