@@ -2,12 +2,12 @@
 
 > Design and implementation of a corporate Zero Trust ecosystem with federated identity, MFA enforcement and security auditing — deployed on a hybrid on-premise + AWS infrastructure.
 
-**Author:** Asier Barranco
-**Cycle:** CFGS ASIX — Cybersecurity Profile
-**Centre:** Institut Tecnològic de Barcelona
-**Academic year:** 2025–2026
-**Project period:** 13/04/2026 → 12/05/2026
-**Defence:** 20/05/2026
+**Author:** Asier Barranco  
+**Cycle:** CFGS ASIX — Cybersecurity Profile  
+**Centre:** Institut Tecnològic de Barcelona  
+**Academic year:** 2025–2026  
+**Project period:** 13/04/2026 → 12/05/2026  
+**Defence:** 20/05/2026  
 
 ---
 
