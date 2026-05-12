@@ -388,5 +388,3 @@ At the end of this phase, the following is operational:
 | MFA | TOTP mandatory for all realm users — verified with `alice.smith` |
 | SSO client | `nextcloud` (SAML) — placeholder URLs pending Nginx configuration |
 | Data persistence | Docker volume `keycloak_data` — survives container restarts |
-
-**Next step:** Nginx reverse proxy configuration with TLS certificates and domain setup.

@@ -1,8 +1,8 @@
 # Purple Team — Attack Simulations & Incident Response
 
-**Project:** Zero Trust Corporate System
-**Author:** Asier Barranco
-**Date:** 11/05/2026
+**Project:** Zero Trust Corporate System  
+**Author:** Asier Barranco  
+**Date:** 11/05/2026  
 **Version:** 1.1
 
 ---

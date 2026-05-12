@@ -1,9 +1,9 @@
 # Perimeter Protection — Fail2ban & UFW
 
-**Project:** Zero Trust Corporate System
-**Author:** Asier Barranco
-**Date:** 05/05/2026
-**Host:** `ztcs-perimeter` — AWS EC2 public subnet
+**Project:** Zero Trust Corporate System  
+**Author:** Asier Barranco  
+**Date:** 05/05/2026  
+**Host:** `ztcs-perimeter` — AWS EC2 public subnet  
 **Version:** 1.0
 
 ---
@@ -400,5 +400,3 @@ At the end of this phase, the following perimeter protections are active:
 | Ban enforcement | Via UFW — integrates with the host firewall |
 | Ignored IPs | Localhost, VPC range, WireGuard tunnel, host-only network |
 | Defence layers | AWS Security Groups → UFW → Fail2ban (defence-in-depth) |
-
-**Next step:** Purple Team attack simulations to validate the perimeter protections.

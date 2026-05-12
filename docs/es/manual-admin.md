@@ -1,9 +1,9 @@
 # Manual de Administrador — Sistema Corporativo Zero Trust
 
-**Proyecto:** Zero Trust Corporate System
-**Autor:** Asier Barranco
-**Fecha:** 12/05/2026
-**Versión:** 1.0
+**Proyecto:** Zero Trust Corporate System  
+**Autor:** Asier Barranco  
+**Fecha:** 12/05/2026  
+**Versión:** 1.0  
 **Destinatarios:** Administradores de sistemas
 
 ---

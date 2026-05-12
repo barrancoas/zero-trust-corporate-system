@@ -1,9 +1,9 @@
 # Sustainability Report
 
-**Project:** Zero Trust Corporate System
-**Author:** Asier Barranco
-**Date:** 20/04/2026
-**Version:** 1.0
+**Project:** Zero Trust Corporate System  
+**Author:** Asier Barranco  
+**Date:** 20/04/2026  
+**Version:** 1.0  
 
 ---
 

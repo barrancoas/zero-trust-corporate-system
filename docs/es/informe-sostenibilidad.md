@@ -1,8 +1,8 @@
 # Informe de Sostenibilidad
 
-**Proyecto:** Zero Trust Corporate System
-**Autor:** Asier Barranco
-**Fecha:** 20/04/2026
+**Proyecto:** Zero Trust Corporate System  
+**Autor:** Asier Barranco  
+**Fecha:** 20/04/2026  
 **Versión:** 1.0
 
 ---

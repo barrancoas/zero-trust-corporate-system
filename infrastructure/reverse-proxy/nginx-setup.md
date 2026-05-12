@@ -483,5 +483,3 @@ At the end of this phase, the following is operational:
 - **NX-04:** Auto-renewal configured and tested ✓
 - **NX-05:** Security headers present ✓
 - **NX-06:** Routing to all backend services functional ✓
-
-**Next step:** SSO integration between Nextcloud and Keycloak via SAML. See `infrastructure/services/sso-nextcloud-setup.md`.

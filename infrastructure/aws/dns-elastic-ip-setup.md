@@ -1,8 +1,8 @@
 # Domain Registration, Elastic IP & DNS Configuration
 
-**Project:** Zero Trust Corporate System
-**Author:** Asier Barranco
-**Date:** 07/05/2026
+**Project:** Zero Trust Corporate System  
+**Author:** Asier Barranco  
+**Date:** 07/05/2026  
 **Version:** 1.0
 
 ---
@@ -178,5 +178,3 @@ This change is permanent — the endpoint will not need to be updated again unle
 | DNS A record | `abb-ztcs.com` → `32.197.108.153` — TTL 3600 — propagated and verified |
 | SSH access | Permanent — no longer changes between lab sessions |
 | WireGuard endpoint | Updated to `32.197.108.153:51820` — permanent |
-
-**Next step:** Nginx reverse proxy configuration with TLS certificates on `ztcs-perimeter`. See `infrastructure/reverse-proxy/setup.md`.

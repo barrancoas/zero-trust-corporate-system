@@ -1,9 +1,9 @@
 # Corporate Services Deployment — MariaDB, Nextcloud & Mattermost
 
-**Project:** Zero Trust Corporate System
-**Author:** Asier Barranco
-**Date:** 05/05/2026
-**Host:** `ztcs-services` — AWS EC2 private subnet
+**Project:** Zero Trust Corporate System  
+**Author:** Asier Barranco  
+**Date:** 05/05/2026  
+**Host:** `ztcs-services` — AWS EC2 private subnet  
 **Version:** 1.0
 
 ---
@@ -431,5 +431,3 @@ At the end of this phase, the following is operational:
 | NAT Gateway | Created for deployment, removed after — private subnet restored to air-gapped |
 | External isolation | Verified — services not reachable from public internet |
 | Internal connectivity | Verified — services reachable from `ztcs-perimeter` on configured ports |
-
-**Next step:** Nginx reverse proxy configuration with TLS certificates and domain setup on `ztcs-perimeter`.

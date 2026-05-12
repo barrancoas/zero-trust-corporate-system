@@ -1,10 +1,10 @@
 # Administrator Manual — Zero Trust Corporate System
 
-**Project:** Zero Trust Corporate System
-**Author:** Asier Barranco
-**Date:** 12/05/2026
-**Version:** 1.0
-**Audience:** System administrators
+**Project:** Zero Trust Corporate System  
+**Author:** Asier Barranco  
+**Date:** 12/05/2026  
+**Version:** 1.0  
+**Audience:** System administrators  
 
 ---
 

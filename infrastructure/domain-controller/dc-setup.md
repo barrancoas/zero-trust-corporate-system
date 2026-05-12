@@ -605,5 +605,3 @@ At the end of this phase, the following infrastructure is operational:
 | Security hardening | GPO-SecurityHardening — no username display, no anonymous SAM enumeration, admin renamed |
 | Firewall | Active on all profiles. AD ports + WireGuard 51820/UDP allowed |
 | Snapshot | `AD-Configured-Clean` — clean rollback point |
-
-**Next step:** WireGuard VPN tunnel between this server and the AWS VPC (`ztcs-perimeter` instance).

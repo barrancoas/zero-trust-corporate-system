@@ -464,5 +464,3 @@ At the end of this phase, the following infrastructure is operational:
 | SSH access | Verified — direct to perimeter, jump host to services via ssh-agent forwarding |
 | Internal connectivity | Verified — TCP port 22 reachable between instances (ICMP blocked by Security Groups by design) |
 | Internet isolation | Verified — private subnet has no outbound internet connectivity |
-
-**Next step:** WireGuard VPN tunnel between `ztcs-perimeter` and the on-premise Windows Server (`192.168.56.10`).

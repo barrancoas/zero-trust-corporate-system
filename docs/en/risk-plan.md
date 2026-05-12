@@ -1,6 +1,6 @@
 # Risk Management Plan
 
-**Project:** Zero Trust Corporate System
+**Project:** Zero Trust Corporate System  
 **Author:** Asier Barranco  
 **Date:** 14/04/2026  
 **Version:** 1.0

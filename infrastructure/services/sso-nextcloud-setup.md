@@ -1,9 +1,9 @@
 # SSO Integration — Nextcloud with Keycloak (SAML)
 
-**Project:** Zero Trust Corporate System
-**Author:** Asier Barranco
-**Date:** 11/05/2026
-**Version:** 2.0
+**Project:** Zero Trust Corporate System  
+**Author:** Asier Barranco  
+**Date:** 11/05/2026  
+**Version:** 2.0  
 
 ---
 
@@ -302,5 +302,3 @@ At the end of this phase, the following SSO integration is operational:
 | Authentication flow | Nextcloud → Keycloak → AD/LDAP → TOTP → SAML assertion → Nextcloud session |
 | Local admin access | Preserved via `https://abb-ztcs.com/login?direct=1` |
 | Verified users | `alice.smith` — full SSO + MFA flow completed, dashboard accessible |
-
-**Next step:** Purple Team attack simulations. See `security/red-team/`.

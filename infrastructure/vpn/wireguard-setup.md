@@ -1,8 +1,8 @@
 # WireGuard VPN Tunnel — On-premise ↔ AWS
 
-**Project:** Zero Trust Corporate System
-**Author:** Asier Barranco
-**Date:** 05/05/2026
+**Project:** Zero Trust Corporate System  
+**Author:** Asier Barranco  
+**Date:** 05/05/2026  
 **Version:** 1.0
 
 ---
@@ -251,5 +251,3 @@ At the end of this phase, the following is in place:
 | Tunnel status | Active — handshake verified |
 | Bidirectional connectivity | AWS ↔ DC01 ping verified |
 | LDAP reachability | Port 389 reachable from `ztcs-perimeter` to `192.168.56.10` |
-
-**Next step:** Keycloak identity provider deployment on `ztcs-perimeter`.

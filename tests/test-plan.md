@@ -1,6 +1,6 @@
 # Test Plan — Zero Trust Corporate System
 
-**Project:** Zero Trust Corporate System  
+**Project:** Zero Trust Corporate System   
 **Author:** Asier Barranco  
 **Date:** 12/05/2026  
 **Version:** 1.0  
