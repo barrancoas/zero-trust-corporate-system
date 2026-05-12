@@ -72,7 +72,7 @@ AWS allocated: **`32.197.108.153`**
 ### 3.3 Verify SSH Access via Elastic IP
 
 ```bash
-ssh -i /media/asier.barranco.7e6/ASIER/ZTCS/labsuser.pem ubuntu@32.197.108.153
+ssh -i /path/to/labsuser.pem ubuntu@32.197.108.153
 ```
 
 The connection should succeed. From this point forward, `32.197.108.153` is the permanent public address of `ztcs-perimeter` — the SSH command no longer needs to be updated after each lab session restart.

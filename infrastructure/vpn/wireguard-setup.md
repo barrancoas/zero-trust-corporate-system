@@ -29,7 +29,7 @@ This tunnel is a critical dependency for the entire identity layer. Without it, 
 Connect to `ztcs-perimeter` via SSH:
 
 ```bash
-ssh -i /media/asier.barranco.7e6/ASIER/labsuser.pem ubuntu@<PERIMETER_PUBLIC_IP>
+ssh -i /path/to/labsuser.pem ubuntu@<PERIMETER_PUBLIC_IP>
 ```
 
 Install WireGuard:

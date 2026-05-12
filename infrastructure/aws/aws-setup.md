@@ -413,13 +413,13 @@ Quick reference for SSH connections throughout the project.
 
 ```bash
 eval $(ssh-agent)
-ssh-add /media/asier.barranco.7e6/ASIER/labsuser.pem
+ssh-add /path/to/labsuser.pem
 ```
 
 **Connect to the perimeter instance (direct):**
 
 ```bash
-ssh -i /media/asier.barranco.7e6/ASIER/labsuser.pem ubuntu@<PERIMETER_PUBLIC_IP>
+ssh -i /path/to/labsuser.pem ubuntu@<PERIMETER_PUBLIC_IP>
 ```
 
 **Connect to the services instance (via jump host):**
@@ -431,7 +431,7 @@ ssh -A -J ubuntu@<PERIMETER_PUBLIC_IP> ubuntu@10.0.2.220
 **Copy a file to the perimeter instance:**
 
 ```bash
-scp -i /media/asier.barranco.7e6/ASIER/labsuser.pem ./file.tar.gz ubuntu@<PERIMETER_PUBLIC_IP>:~/
+scp -i /path/to/labsuser.pem ./file.tar.gz ubuntu@<PERIMETER_PUBLIC_IP>:~/
 ```
 
 **Copy a file from the perimeter to the services instance (run from perimeter):**
